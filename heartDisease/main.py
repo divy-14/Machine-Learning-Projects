@@ -5,7 +5,6 @@ import sklearn as sk
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn import svm
 import  pickle
-from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 
 dt = pd.read_csv("heart.csv")
